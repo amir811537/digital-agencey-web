@@ -1,0 +1,182 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.baba{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.beta{
+    list-style: none;
+    display: flex;
+   gap: 30px;
+   font-style: italic;
+   font-size: 17px;
+}
+nav{
+    background-color: gray;
+}
+.banner-contenar{
+    height: 100vh;
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.banner-info{
+    text-align: center;
+}
+.primary{
+    color: red;
+}
+.title{
+
+font-size: 55px;
+font-weight: bold;
+color: white;
+
+}
+.title-des{
+color: white;
+padding: 10px;
+width: 50%;
+margin: auto;
+
+
+}
+.btn-primary{
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    background-color: red;
+}
+.hire{
+    border: none;
+    padding: 12px 20px;
+
+
+}
+
+.service-container{
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-position: center;
+    background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
+color: white;
+display: flex;
+align-items: center;
+padding: 30px;
+
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    padding: 50px;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    color: black;
+    border-radius: 5px;
+}
+.service-dis{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+   gap: 3px;
+   margin-top: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+}
+.btn-primary-1{
+
+    border: none;
+    padding: 12px 20px;
+    color: black;
+    background-color: white;
+    border-radius:10px;
+ 
+}
+span{
+    color: red;
+}
+.bolg-container{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    width: 220px;
+    height: 300px;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 10px;
+
+}
+.blog-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-title{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 120px;
+
+}
+.header-dis{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
